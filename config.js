@@ -24,7 +24,7 @@ import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
 let wibh = moment.tz('Africa/Kenya').format('HH')
-    let wibm = moment.tz(Africa/Kenya').format('mm')
+    let wibm = moment.tz('Africa/Kenya').format('mm')
     let wibs = moment.tz('Africa/Kenya').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
